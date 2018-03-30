@@ -1,0 +1,33 @@
+body {
+    position: absolute;
+    height: 100px; 
+    padding: 10px;
+    width: 100%;
+    background-color: white; 
+}
+
+
+
+.fixed-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+p {
+    font-family: open sans;
+    font-size: 20px;
+
+
+}
+h1 {
+    font-family: open sans;
+    text-align: left;
+
+}
+tr{
+    text-align: center;
+}
