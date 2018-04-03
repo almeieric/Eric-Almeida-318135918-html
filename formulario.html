@@ -7,11 +7,13 @@
 </head>
 
 <body>
- <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="arvore_dom.html">Arvore Dom</a></li>
+ <header>
+   <ul>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="arvore_dom.html">Arvore Dom</a></li>
     
- </ul>
+   </ul>
+</header>
 <form action="/Formulario" method="post">
 	<div>
 		<label for="Nome">Nome:</label>
@@ -35,10 +37,8 @@
 	</div>
 	<div>
 		<label for="Sexo">Sexo:</label>
-		<input type="button" name="Masculino"/>
-		<label for="masculino">Masculino</label>
-		<input type="button" name="Feminino">
-		<label for="feminino">Feminino</label>	
+		<input type="text" name="Sexo"/>
+			
 	</div>
 	<div>
 		<label for="Estado civil">Estado civil:</label>
@@ -59,7 +59,11 @@
     <div>
 		<label for="Endereço">Endereço:</label>
 		<input type="text" name="Endereço"/>	
-	</div>		
+	</div>
+	<div>
+		<input type="submit" name="Salvar" value= "Salvar">
+	</div>
+
 </form>
 
 </body>
