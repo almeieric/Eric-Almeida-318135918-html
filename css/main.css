@@ -3,7 +3,7 @@ body {
     height: 100px; 
     padding: 10px;
     width: 100%;
-    background-color: white; 
+
 }
 
 
@@ -16,7 +16,27 @@ body {
     width: 100%;
     overflow: hidden;
 }
+form{
+background-color: white;
 
+width: 50%;
+position: relative;
+}
+div {
 
-
+    font-family:  "Times New Roman", Times, serif;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: left;
+}
+input {
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    border: 2px solid black;
+    width: 50%
+}
+label{
+    text-decoration: underline;
 }
